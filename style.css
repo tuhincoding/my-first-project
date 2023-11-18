@@ -1,0 +1,181 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgb(212, 228, 232)50%,rgb(212, 228, 232)50%);
+    
+}
+.hader_area{
+    display: flex;
+    align-content: end;
+    gap: 68%;
+    margin: 13px 61px 0px 61px;
+}
+.hader_area img{
+    width: 45px;
+}
+.hader_area ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+.hader_area ul li a{
+    text-decoration: none;
+    color: #1a1515;
+    font-size: 10px;
+}
+
+.body_area {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	margin: 20px 108px 0px 53px;
+	padding: 35px 15px 10px 55px;
+	gap: 63px;
+}
+.left_area h1{
+    color: #000000;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+.paragraph_first {
+	font-size: 12px;
+	margin-bottom: 14px;
+}
+
+.left_area button:first-child {
+	background: red;
+	width: 100px;
+	height: 26px;
+    border: 0;
+    margin-right: 9px;
+    
+}
+.left_area button:last-child{
+	width: 100px;
+	height: 26px;
+    color: #000000;
+}
+.left_area button:last-child a{
+    color: #000000;
+}
+
+.left_area a {
+	text-decoration: none;
+	color: #fff;
+}
+.left_area button{
+    margin-bottom: 20px;
+}
+
+
+.last_paragraph{
+    opacity: .5;
+    font-size: 13px;
+}
+
+
+
+.right_area img{
+    width: 390px;
+}
+
+
+
+
+.contacts {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+    flex-direction: column;
+	margin: -45px 108px 0px 53px;
+	padding: 35px 15px 10px 55px;
+	gap: 4px;
+	
+}
+.contacts h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+.contacts p{
+    font-size: 12px;
+}
+
+
+
+
+.last_area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form_area{
+   text-align: center;
+    margin: 0px 108px 0px 53px;
+    padding: 9px 15px 10px 55px;
+}
+.buton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+    margin-bottom: 13px;
+}
+.buton button {
+	background: black;
+	width: 157px;
+	height: 40px;
+	border: 0;
+	border-radius: 4px;
+}
+.buton button a{
+    text-decoration: none;
+    color: #fff;
+}
+#last_button {
+	width: 335px;
+	height: 25px;
+	margin-bottom: 10px;
+}
+
+.form_are form{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+.form_are form input{
+    width: 264px;
+}
+.form_are button {
+	width: 110px;
+	height: 25px;
+	background: black;
+	border: 0;
+    margin-left: 116px;
+    border-radius: 3px;
+}
+.form_are button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.img_are{
+    width: 461px;
+}
+.img_are img{
+    width: 276px;
+}
